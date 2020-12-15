@@ -417,6 +417,7 @@
 						margin-bottom: 15px;
 						font-size: 9pt;
 						margin-bottom:3px;
+						opacity: 0.78;
 					}
 
 					.btn-8 {
