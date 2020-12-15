@@ -209,12 +209,10 @@ get_header();
 							<span class="date-style__separator"></span>
 						</span>
 
-                        <div class="top-news__main-title" href="#">
-                            <div class="top-news__main-title-inner">
-                                <a href="<?php the_permalink(); ?>">
-									<?php the_title(); ?>
-                                </a>
-							</div>
+                        <div style="font-size:24pt;font-weight:600;text-align: center;" href="#">
+							<a href="<?php the_permalink(); ?>">
+								<?php the_title(); ?>
+							</a>
                         </div>
                     </div>
 					<?php
