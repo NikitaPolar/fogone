@@ -204,8 +204,10 @@ get_header();
 									</svg>
 								</span>
 						</a>
-                        <span class="date-style date-style--separator date-style--dark">
+
+						<span class="date-style date-style--separator date-style--dark" style="padding-bottom: 10px;">
 							<?php the_time( 'H:i' ) ?>
+							<span style="padding: 4px;background: #eceff1;margin-left: 5px;">Видео</span>
 							<span class="date-style__separator"></span>
 						</span>
 
