@@ -199,7 +199,7 @@ get_header();
 								<img src="https://cdn.news-front.info/uploads/zag.jpg">
 							<?php endif; ?>
                             <span class="video-yt-icon video-yt-icon--big">
-									<svg viewBox="0 0 100 100" class="icon">
+									<svg viewBox="0 0 100 100" class="icon" style="opacity:0.37;">
 										<use xlink:href="#icon-yt2"></use>
 									</svg>
 								</span>
