@@ -140,6 +140,13 @@
 			document.querySelector('.swiper-container').setAttribute('style','height: '+heigg+'px !important');
 		});
 
+		$( ".top-news__main" ).mouseenter(function() {
+			$( ".video-yt-icon--big .icon" ).css('fill','#ffffff')
+		});
+		$( ".top-news__main" ).mouseout(function() {
+			$( ".video-yt-icon--big .icon" ).css('fill','#ffffff73;')
+		});
+
 		/*diffse = ($('.article-link.article-link-2-col').position().top + $('.article-link.article-link-2-col').height()) - 
 		($('.sidebar-news-block.sidebar-news-block--h1835').position().top + $('.sidebar-news-block.sidebar-news-block--h1835').height());
 		console.log(diffse);
