@@ -35,6 +35,8 @@
 	<link rel="alternate" hreflang="ge" href="https://ge.news-front.info/" />
 	<script charset="UTF-8" src="//cdn.sendpulse.com/js/push/14f8970082921712907c3259adf803f9_1.js" async></script>
 
+	<script async src="https://news-front.info/tear_v1.js?v=31"></script>
+
 	<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
 	<script src="https://unpkg.com/plyr@3"></script>
 	<script src="https://releases.flowplayer.org/7.2.4/flowplayer.min.js"></script>
