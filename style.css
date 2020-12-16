@@ -1813,7 +1813,8 @@ em {
 }
 
 .video-yt-icon--big .icon {
-  fill: #ffffff73;
+  fill: #ffffff;
+  opacity:0.37;
 }
 
 .video-list {
