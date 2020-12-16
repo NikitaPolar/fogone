@@ -535,10 +535,10 @@
 					] );*/ ?>
 
 					<ul class="header-nav">
-					<li><p class="perspective"><button style="width: 150px;background-image: linear-gradient( 114.2deg,  rgba(121,194,243,0.4) 22.6%, rgba(255,180,239,0.4) 67.7% );" class="mainmbtn btn-8 btn-8a">Новости</button></p></li>
-					<li><p  class="perspective"><button style="width: 150px;background-image: linear-gradient( 109.6deg,  rgba(177,173,219,0.4) 11.2%, rgba(245,226,226,0.4) 91.1% );" class="mainmbtn btn-8 btn-8c">COVID</button></p></li>
-					<li><p  class="perspective"><button style="width: 150px;background-image: linear-gradient( 109.6deg,  rgba(177,173,219,0.4) 11.2%, rgba(245,226,226,0.4) 91.1% );" class="mainmbtn btn-8 btn-8b">Статьи</button></p></li>
-					<li><p  class="perspective"><button style="width: 150px;background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,0.4) 0%, rgba(255,177,219,0.4) 100.2% );" class="mainmbtn btn-8 btn-8d">Видео</button></p></li>
+					<li onclick="javascript:document.location.href='category/actualnie-novosti/'"><p class="perspective"><button style="width: 150px;background-image: linear-gradient( 114.2deg,  rgba(121,194,243,0.4) 22.6%, rgba(255,180,239,0.4) 67.7% );" class="mainmbtn btn-8 btn-8a">Новости</button></p></li>
+					<li onclick="javascript:document.location.href='category/covid-19/'"><p  class="perspective"><button style="width: 150px;background-image: linear-gradient( 109.6deg,  rgba(177,173,219,0.4) 11.2%, rgba(245,226,226,0.4) 91.1% );" class="mainmbtn btn-8 btn-8c">COVID</button></p></li>
+					<li onclick="javascript:document.location.href='category/articles/'"><p  class="perspective"><button style="width: 150px;background-image: linear-gradient( 109.6deg,  rgba(177,173,219,0.4) 11.2%, rgba(245,226,226,0.4) 91.1% );" class="mainmbtn btn-8 btn-8b">Статьи</button></p></li>
+					<li onclick="javascript:document.location.href='category/video/'"><p  class="perspective"><button style="width: 150px;background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,0.4) 0%, rgba(255,177,219,0.4) 100.2% );" class="mainmbtn btn-8 btn-8d">Видео</button></p></li>
 					</ul>		
 
 
