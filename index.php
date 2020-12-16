@@ -69,11 +69,11 @@ get_header();
 				window.player = player;
 
 				//player.on('ready', event => {
-				///console.log('---');
+				//console.log('---');
 				//console.log(event.detail.plyr);
 				//window.player.play();
 				//window.player.volume=0;
-			});
+			//});
 				});
 			hls.attachMedia(video);
 			window.hls = hls;
