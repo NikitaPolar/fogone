@@ -1815,6 +1815,7 @@ em {
 .video-yt-icon--big .icon {
   fill: #ffffff;
   opacity:0.37;
+  pointer-events: none !important;
 }
 
 .video-list {
