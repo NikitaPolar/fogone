@@ -40,7 +40,7 @@ get_header();
 	defaultOptions.muted = true;
 	defaultOptions.autopause = true;
 	defaultOptions.displayDuration = false;
-	defaultOptions.debug = true;
+	defaultOptions.debug = false;
 	defaultOptions.clickToPlay = true;
 	defaultOptions.controls = ['play','volume','fullscreen'];
 	
@@ -68,9 +68,9 @@ get_header();
 				const player = new Plyr(video, defaultOptions);
 				window.player = player;
 
-				player.on('ready', event => {
-				console.log('---');
-				console.log(event.detail.plyr);
+				//player.on('ready', event => {
+				///console.log('---');
+				//console.log(event.detail.plyr);
 				//window.player.play();
 				//window.player.volume=0;
 			});
@@ -83,12 +83,12 @@ get_header();
 		    const player = new Plyr(video, defaultOptions);
 			window.player = player;
 
-			player.on('ready', event => {
-			console.log('---');
-			console.log(event.detail.plyr);
+			///player.on('ready', event => {
+			//console.log('---');
+			//console.log(event.detail.plyr);
 			//window.player.play();
 			//window.player.volume=0;
-		});
+		//});
 		}
 		function updateQuality(newQuality) {
 			window.hls.levels.forEach((level, levelIndex) => {
