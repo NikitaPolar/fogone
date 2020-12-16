@@ -61,34 +61,19 @@ get_header();
 				defaultOptions.quality = {
 					default: availableQualities[0],
 					options: availableQualities,
-					// this ensures Plyr to use Hls to update quality level
 					forced: true,
 					onChange: (e) => updateQuality(e)
 				}
 				const player = new Plyr(video, defaultOptions);
 				window.player = player;
+			});
 
-				//player.on('ready', event => {
-				//console.log('---');
-				//console.log(event.detail.plyr);
-				//window.player.play();
-				//window.player.volume=0;
-			//});
-				});
 			hls.attachMedia(video);
 			window.hls = hls;
 
-			
 		} else {
 		    const player = new Plyr(video, defaultOptions);
 			window.player = player;
-
-			///player.on('ready', event => {
-			//console.log('---');
-			//console.log(event.detail.plyr);
-			//window.player.play();
-			//window.player.volume=0;
-		//});
 		}
 		function updateQuality(newQuality) {
 			window.hls.levels.forEach((level, levelIndex) => {
