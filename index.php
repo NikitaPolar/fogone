@@ -468,7 +468,7 @@ get_header();
                             <div class="articles-list articles-list--column-2">
 								<?php
 								$args          = array(
-									'posts_per_page' => 4,
+									'posts_per_page' => 6,
 									'cat'            => 9,
 									'offset'         => 4,
 									'no_found_rows' => true
@@ -489,13 +489,8 @@ get_header();
 												} else {
 													the_post_thumbnail('medium');
 												} ?>
-                                                <span class="tag tag--green">Статья</span>
+                                                <span class="tag tag--darkdark" style="radius-border:1px;"><?php the_time( 'd.m.Y H:i' ); ?></span>
                                             </a>
-                                            <div class="article-link__row">
-                                                <span class="date-style date-style--dark">
-                                                        <?php the_time( 'd.m.Y H:i' ); ?>
-                                                    </span>
-                                            </div>
                                             <a href="<?php the_permalink(); ?>" class="article-link__title">
 												<?php the_title(); ?>
                                             </a>
@@ -512,7 +507,7 @@ get_header();
                             <div class="articles-list articles-list--column-2">
 								<?php
 								$args          = array(
-									'posts_per_page' => 4,
+									'posts_per_page' => 6,
 									'cat'            => 9,
 									'offset'         => 8,
 									'no_found_rows' => true
@@ -533,13 +528,8 @@ get_header();
 												} else {
 													the_post_thumbnail('medium');
 												} ?>
-                                                <span class="tag tag--green">Статья</span>
+                                                <span class="tag tag--darkdark" style="radius-border:1px;"><?php the_time( 'd.m.Y H:i' ); ?></span>
                                             </a>
-                                            <div class="article-link__row">
-                                                <span class="date-style date-style--dark">
-                                                        <?php the_time( 'd.m.Y H:i' ); ?>
-                                                    </span>
-                                            </div>
                                             <a href="<?php the_permalink(); ?>" class="article-link__title">
 												<?php the_title(); ?>
                                             </a>
