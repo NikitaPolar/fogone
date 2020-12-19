@@ -672,7 +672,7 @@ get_header();
             <div class="table-list">
 				<?php
 				$args  = array(
-					'posts_per_page' => 8,
+					'posts_per_page' => 7,
 					'cat'            => 2275
 				);
 				$query = new WP_Query( $args );
