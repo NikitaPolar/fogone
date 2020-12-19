@@ -9,20 +9,18 @@
 
 get_header();
 ?>
-
-    <h1 class="main-head main-head--big main-head--filter main-head--mb25">
-	    <span class="main-head__side-w">
-				<?php single_cat_title(''); ?>
-	    </span>
-        <?php
-        $cat_ID = get_query_var('cat');
-        ?>
-        
-    </h1>
-    
     <div class="all-news">
 		<?php get_sidebar(); ?>
         <div class="all-news__inner">
+			<h1 class="main-head main-head--big main-head--filter main-head--mb25">
+				<span class="main-head__side-w">
+						<?php single_cat_title(''); ?>
+				</span>
+				<?php
+				$cat_ID = get_query_var('cat');
+				?>
+				
+			</h1>
 			<?php if ( have_posts() ) :
 				$count_post = 0; ?>
 	        <?php do_action('show_beautiful_filters'); ?>
