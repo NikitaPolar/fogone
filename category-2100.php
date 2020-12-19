@@ -1,16 +1,15 @@
 <?php
 get_header();
 ?>
-    <h2 class="main-head main-head--big main-head--filter main-head--mb25">
-			<span class="main-head__side-w">
-			            Видео новости
-			                  </span>
-
-    </h2>
-
     <div class="all-news">
 		<?php get_sidebar(); ?>
         <div class="all-news__inner">
+				<h2 class="main-head main-head--big main-head--filter main-head--mb25">
+					<span class="main-head__side-w">
+								Видеоновости
+									</span>
+
+			</h2>
             <div class="top-news top-news--mb30 top-news--video-hide">
 				<?php
 				$args  = array(
