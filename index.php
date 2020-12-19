@@ -258,7 +258,7 @@ get_header();
 												<?php the_title(); ?>
 											</a>
 											
-											<span class="date-style date-style--separator" style="background: #eceff1;color: #000;padding: 5px;position: absolute;top: 5px;left: 5px;border-radius: 5px;">
+											<span class="date-style date-style--separator" style="max-width: fit-content;background: #eceff1;color: #000;padding: 5px;position: absolute;top: 5px;left: 5px;border-radius: 5px;">
 												<?php the_time( 'H:i' ) ?>
 											</span>
 
@@ -450,13 +450,8 @@ get_header();
 												} else {
 													the_post_thumbnail('medium');
 												} ?>
-                                                    <span class="tag tag--green">Статья</span>
+                                                    <span class="tag tag--darkdark" style="radius-border:1px;"><?php the_time( 'd.m.Y H:i' ); ?></span>
                                             </a>
-                                            <div class="article-link__row">
-                                                <span class="date-style date-style--dark">
-                                                        <?php the_time( 'd.m.Y H:i' ); ?>
-                                                    </span>
-                                            </div>
                                             <a href="<?php the_permalink(); ?>" class="article-link__title">
 												<?php the_title(); ?>
                                             </a>
