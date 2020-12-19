@@ -118,7 +118,7 @@ get_header();
                 <div class="sidebar-news-block__inner">
 					<?php
 					$args  = array(
-						'posts_per_page'      => 15,
+						'posts_per_page'      => 13,
 						'ignore_sticky_posts' => 1,
 						'cat' => 2275,
 						'date_query'          => array(
@@ -672,7 +672,7 @@ get_header();
             <div class="table-list">
 				<?php
 				$args  = array(
-					'posts_per_page' => 7,
+					'posts_per_page' => 8,
 					'cat'            => 2275
 				);
 				$query = new WP_Query( $args );
