@@ -521,7 +521,7 @@ get_header();
 										$query->the_post();
 										$article_count ++;
 										?>
-                                        <div class="article-link">
+                                        <div class="article-link" style="min-height:194px;">
                                             <a href="<?php the_permalink(); ?>" class="article-link__img">
 												<?php if ( ( $video_thumbnail = get_video_thumbnail() ) != null ) {
 													the_post_thumbnail('medium');
